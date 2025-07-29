@@ -1,5 +1,6 @@
 import React from 'react'
-import { MapPin, Mail, Link } from 'lucide-react';
+import { MapPin, Mail } from 'lucide-react';
+import Link from 'next/link';
 
 const InfoCard = () => {
     return (
