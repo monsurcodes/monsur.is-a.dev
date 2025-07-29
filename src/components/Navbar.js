@@ -20,7 +20,7 @@ const Navbar = () => {
         ${hasScrolled ? 'border-b-1 border-slate-700 shadow-lg bg-black' : 'bg-slate-950'}`}
     >
       <div className='text-green-600 text-3xl font-semibold'>
-        <Link href="/">monsurcodes</Link>
+        <Link href="/">monsur.is-a.dev</Link>
       </div>
       <ul className='flex sm:gap-7 gap-2 text-slate-400'>
         <li className='hover:text-white hover:cursor-pointer hover:animate-pulse'><Link href="#about">About</Link></li>

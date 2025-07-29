@@ -7,7 +7,7 @@ const Footer = () => {
         <footer className='flex flex-col sm:flex-row gap-2 border-t border-slate-700 bg-black py-6 px-10 sm:px-40 justify-between items-center'>
             <div className='flex flex-col gap-2'>
                 <div className='text-green-600 text-2xl font-semibold hover:text-green-500 transition-colors duration-300'>
-                    <Link href="/">monsurcodes</Link>
+                    <Link href="/">monsur.is-a.dev</Link>
                 </div>
                 <div className='text-slate-300'>Developing chad projects since 2021</div>
             </div>

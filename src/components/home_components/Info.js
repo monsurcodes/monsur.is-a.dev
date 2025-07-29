@@ -10,7 +10,7 @@ const InfoCard = () => {
                 className="flex flex-col md:flex-row items-center gap-8 bg-gradient-to-r from-slate-800 to-slate-900 py-8 px-4 sm:py-10 sm:px-8 md:px-12 lg:px-16 border border-slate-500"
             >
                 <div className="flex flex-col gap-2 flex-1 w-full">
-                    <h1 className="text-3xl sm:text-4xl md:text-5xl bg-gradient-to-r from-green-400 to-green-800 bg-clip-text text-transparent animate-pulse font-bold text-center md:text-left">
+                    <h1 className="text-3xl sm:text-4xl md:text-5xl bg-gradient-to-r from-green-400 to-green-800 bg-clip-text text-transparent font-bold text-center md:text-left">
                         Monsur Mazumder
                     </h1>
                     <p className="text-lg sm:text-xl md:text-2xl text-center md:text-left">Hobby Developer</p>
