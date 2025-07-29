@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link';
 import { Github } from 'lucide-react';
 
 const Footer = () => {
@@ -6,7 +7,7 @@ const Footer = () => {
         <footer className='flex flex-col sm:flex-row gap-2 border-t border-slate-700 bg-black py-6 px-10 sm:px-40 justify-between items-center'>
             <div className='flex flex-col gap-2'>
                 <div className='text-green-600 text-2xl font-semibold hover:text-green-500 transition-colors duration-300'>
-                    <a href="/">monsurcodes</a>
+                    <Link href="/">monsurcodes</Link>
                 </div>
                 <div className='text-slate-300'>Developing chad projects since 2021</div>
             </div>
@@ -15,7 +16,7 @@ const Footer = () => {
                 <div>
                     <p className='text-slate-400 text-sm'>© 2025 Monsur Codes. All rights reserved.</p>
                 </div>
-                <a
+                <Link
                     href="https://github.com/monsurcodes/monsur.is-a.dev"
                     target='_blank'
                     rel='noopener noreferrer'
@@ -25,7 +26,7 @@ const Footer = () => {
                         <p>Source Code</p>
                         <Github />
                     </div>
-                </a>
+                </Link>
             </div>
         </footer>
     )

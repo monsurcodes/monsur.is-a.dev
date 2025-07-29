@@ -2,6 +2,7 @@
 
 import { Github, Star, GitFork } from "lucide-react"
 import { useState, useEffect } from "react"
+import Link from "next/link"
 
 const Projects = () => {
   const projects = [
@@ -141,7 +142,7 @@ const Projects = () => {
                 </div>
               </div>
 
-              <a
+              <Link
                 href={data.repo_url}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -158,9 +159,7 @@ const Projects = () => {
                   focus:ring-green-500/50
                 "
                 onClick={(e) => e.stopPropagation()}
-              >
-                <Github size={20} />
-              </a>
+              ><Github size={20} /></Link>
             </div>
           </div>
         ))}

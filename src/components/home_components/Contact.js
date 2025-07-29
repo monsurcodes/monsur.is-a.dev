@@ -1,4 +1,5 @@
 import { Github, Send, Twitter, Linkedin } from "lucide-react"
+import Link from "next/link"
 
 const Contact = () => {
   const contactLinks = [
@@ -39,7 +40,7 @@ const Contact = () => {
         {contactLinks.map((contact, index) => {
           const IconComponent = contact.icon
           return (
-            <a
+            <Link
               key={index}
               href={contact.url}
               target="_blank"
@@ -88,7 +89,7 @@ const Contact = () => {
               >
                 {contact.name}
               </span>
-            </a>
+            </Link>
           )
         })}
       </div>

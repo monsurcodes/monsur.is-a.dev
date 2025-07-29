@@ -1,5 +1,5 @@
 import React from 'react'
-import { MapPin, Mail } from 'lucide-react';
+import { MapPin, Mail, Link } from 'lucide-react';
 
 const InfoCard = () => {
     return (
@@ -24,7 +24,7 @@ const InfoCard = () => {
                         <div className="flex gap-2 items-center bg-slate-900 border border-slate-700 px-4 py-2 text-slate-300 group hover:text-white cursor-pointer">
                             <Mail className="w-5 h-5 text-slate-400 group-hover:text-white" />
                             <p className="group-hover:text-white">
-                                <a href="mailto:monsurcodes@gmail.com">monsurcodes@gmail.com</a>
+                                <Link href="mailto:monsurcodes@gmail.com">monsurcodes@gmail.com</Link>
                             </p>
                         </div>
 
