@@ -7,6 +7,7 @@ import Link from "next/link"
 const Projects = () => {
   const projects = [
     { username: "monsurcodes", reponame: "movies-downloader" },
+    { username: "monsurcodes", reponame: "telegram_assistant_bot" },
     { username: "minkxx", reponame: "MultiForwarderTGBot" },
     { username: "minkxx", reponame: "LMS" },
     { username: "minkxx", reponame: "spotify-readme" },
