@@ -24,7 +24,7 @@ const Skills = () => {
       title: "Android Development",
       icon: TabletSmartphone,
       skills: ["React Native", "Android SDK"],
-      color: "text-purple-400",
+      color: "text-slate-400",
     },
     {
       title: "Code Editors",
