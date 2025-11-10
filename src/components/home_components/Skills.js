@@ -1,4 +1,4 @@
-import { Code2, Globe, Monitor, FileText, Database, Wrench, Bot, Terminal } from "lucide-react"
+import { Code2, Globe, Monitor, FileText, Database, Wrench, Bot, Terminal, TabletSmartphone } from "lucide-react"
 
 const Skills = () => {
   const skillCategories = [
@@ -18,6 +18,12 @@ const Skills = () => {
       title: "Desktop Development",
       icon: Monitor,
       skills: ["Electron.js"],
+      color: "text-purple-400",
+    },
+    {
+      title: "Android Development",
+      icon: TabletSmartphone,
+      skills: ["React Native", "Android SDK"],
       color: "text-purple-400",
     },
     {
