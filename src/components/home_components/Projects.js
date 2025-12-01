@@ -6,6 +6,7 @@ import Link from "next/link"
 
 const Projects = () => {
   const projects = [
+    { username: "monsurcodes", reponame: "telethon_bot_boilerplate" },
     { username: "monsurcodes", reponame: "password-manager" },
     { username: "monsurcodes", reponame: "movies-downloader" },
     { username: "monsurcodes", reponame: "telegram_assistant_bot" },
@@ -73,7 +74,7 @@ const Projects = () => {
       </h2>
 
       {/* Responsive Grid Layout */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
         {projectData.map((data, idx) => (
           <div
             key={idx}
