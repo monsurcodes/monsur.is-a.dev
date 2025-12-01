@@ -24,7 +24,7 @@ const Contact = () => {
     {
       name: "LinkedIn",
       icon: Linkedin,
-      url: "https://www.linkedin.com/in/monsur-mazumder-173666368",
+      url: "https://www.linkedin.com/in/monsurcodes",
       hoverColor: "hover:text-green-400",
     },
   ]
